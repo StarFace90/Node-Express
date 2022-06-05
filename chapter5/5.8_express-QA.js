@@ -31,7 +31,7 @@ app.use(handlers.severError);
 if (require.main === module) {
   app.listen(port, () => {
     console.log(
-      `http://localhost${port}에서 서버가 실행됩니다`,
+      `http://localhost${port}에서 서버가 실행됩니다!`,
       "\n",
       `서버 종료시에는 ctrl + c 를 눌러주세요`
     );
