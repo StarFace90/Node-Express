@@ -1,0 +1,22 @@
+{
+  "name": "chapter5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express-QA.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint 5.8_express-QA.js lib"
+  },
+  "author": "Astra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "jest": "^28.1.0",
+    "portfinder": "^1.0.28",
+    "puppeteer": "^14.2.1"
+  }
+}
